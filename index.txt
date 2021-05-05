@@ -1,0 +1,13 @@
+Hi! PDF Chest UI
+
+Message from Creator : [Niladri Mondal]
+
+{
+    * This is a UI of PDF Chest in Play Store.
+    * Best Preview will be in Mobile View (as it is made for mobile app.)
+    * Its fully responsive and can also view as well as in Desktop View.
+    * Its also have Dark Mode/Theme.
+}
+
+_Thank You :)_
+_Enjoy !_

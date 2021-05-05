@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Site Title -->
+		<title>PDF Chest UI</title>
+		<!-- Favicon-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+		<!-- Meta Character -->
+		<meta charset="UTF-8">
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Meta Author, Description, Keywords -->
+		<meta name="author" content="Niladri Mondal">
+		<meta name="description" content="PDF Chest">
+		<meta name="keywords" content="PDF, DOC, XLS, PPT, APP">
+
+		<!-- Meta OG: Site, Title, Description, Image Displayed -->
+		<meta property="og:site_name" content="PDFCHESTUI">
+		<meta property="og:title" content="PDF Chest UI">
+		<meta property="og:description" content="Simple App UI">
+		<meta property="og:image" content="img/opengraph.png">
+
+		<!-- Fonts -->
+		<link rel="stylesheet" href="fonts/rubik.font.css">
+		<link rel="stylesheet" href="fonts/quicksand.font.css">
+		<link rel="stylesheet" href="fonts/josefinsans.font.css">
+		<link rel="stylesheet" href="fonts/convergence.font.css">
+
+		<!-- Icons -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/boxicons.min.css">
+
+		<!-- Tab Color -->
+		<!-- Mobile -->
+		<meta name="theme-color" content="#FBFBFB">
+		<!-- Windows -->
+		<meta name="msapplication-navbutton-color" content="#FBFBFB">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/lightmode.css">
+		<link rel="stylesheet" href="css/darkmode.css">
+
+		<!-- JS -->
+		<script defer src="js/jquery-3.6.0.min.js"></script>
+		<script defer src="js/bootstrap.bundle.min.js"></script>
+		<script defer src="js/index.js"></script>
+		<!-- <script defer src="js/darkmode.cookie.js"></script> -->
+
+</head>
+<body>
+
+	<main>
+
+		<!-- Preloader Start -->
+		<div id="preloader">
+			<div class="loader">
+				<!-- <img src="img/logo-light.png" width="64"> -->
+				<object data="img/logo-pdf.svg" width="100"></object>
+				<h2>PDF Chest</h2>
+			</div>
+		</div>
+		<!-- Preloader End -->
+
+
+		<!-- Header Start -->
+		<header>
+			<nav class="navbar fixed-top">
+				<div class="navbar-brand btn" id="app-menu">
+					<i class="bx bxs-category"></i>
+				</div>
+
+				<div class="theme-modes btn" id="app-theme">
+					<i class="bx bx-moon"></i>
+					<i class="bx bx-sun"></i>
+				</div>
+			</nav>
+		</header>
+		<!-- Header End -->
+
+
+		<!-- App Drawer Start -->
+		<section class="container-drawer">
+			<nav class="app-drawer">
+				<div class="drawer-btn btn" id="app-drawer-close">
+					<i class="bx bx-x"></i>
+				</div>
+				<img src="img/logo-light.svg">
+				<ul>
+					<li>
+						<a href="javascript:void(0);" id="app-about">
+							<i class="bx bxs-group"></i><span>About Us</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="app-rate">
+							<i class="bx bx-star"></i><span>Rate Now</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="app-feedback">
+							<i class="bx bxs-comment-edit"></i><span>Feedback</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" id="app-buy">
+							<i class="bx bx-coffee-togo"></i><span>Buy Me Coffee</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<!-- App Drawer End -->
+
+
+		<!-- App Info Start -->
+		<section class="container-info">
+			<div class="app-info">
+				<div class="info-btn btn" id="app-info-close">
+					<i class="bx bxs-chevron-down"></i>
+				</div>
+				<div class="app-desc">
+					<img src="img/logo-light.svg">
+					<h2>PDF Chest</h2>
+					<p>
+						PDF Chest is an application where you can search for a topic and the application will provide you with a list of available pdfs related to that topic. You can download them as well as for free. And the best part is that the app is completely ad-free. Enjoy, Also don't forget to rate the app & drop a review on Google Play Store :)
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- App Info End -->
+
+
+		<!-- App Search Results Start -->
+		<section class="container-searchcards">
+			<div class="app-searchcards">
+				<div class="searchback-nav">
+					<i class="bx bxs-chevron-left" id="app-search-close"></i>
+					<p>Searched:<span>Topic</span></p>
+				</div>
+				<div class="search-cards">
+
+					<div class="cards">
+						<h2>PDF File Name</h2>
+						<span><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>Search Fail</h2>
+						<span id="app-search-fail"><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>Downloading Popup</h2>
+						<span data-toggle="modal" data-target="#myModal1"><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>Downloaded</h2>
+						<span data-toggle="modal" data-target="#myModal2"><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>Download Failed</h2>
+						<span data-toggle="modal" data-target="#myModal3"><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>PDF File Name</h2>
+						<span><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>PDF File Name</h2>
+						<span><img src="img/download.svg" width="34"></span>
+					</div>
+
+					<div class="cards">
+						<h2>PDF File Name</h2>
+						<span><img src="img/download.svg" width="34"></span>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- App Search Results End -->
+
+
+		<!-- App Search Fails Start -->
+		<section class="container-searchfails">
+			<div class="app-searchfails">
+				<div class="searchback-nav">
+					<i class="bx bxs-chevron-left" id="app-searchfail-close"></i>
+					<p>Searched:<span>Topic</span></p>
+				</div>
+
+				<div class="search-fails">
+					<img src="img/search.png">
+					<p>Sorry ): <br> Unable to find Result. <br> Try Again!</p>
+				</div>
+			</div>
+		</section>
+		<!-- App Search Fails End -->
+
+
+		<!-- App My Downloads Start -->
+		<section class="container-mydwnlds">
+			<div class="app-mydwnlds">
+				<div class="mydwnlds-nav">
+					<h3>My Downloads</h3>
+					<a href="javascript:void(0);" class="btn" id="app-mydwnlds-close">See Less</a>
+				</div>
+
+				<div class="mydwnlds-card">
+
+					<div class="card">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="mydwnlds-empty">
+					<img src="img/search.png">
+					<p>Oops! <br> You don't have any downloads.</p>
+				</div>
+				
+			</div>
+		</section>
+		<!-- App My Downloads End -->
+
+
+		<!-- App About Us Start -->
+		<section class="container-about">
+			<div class="app-about">
+				<div class="about-btn btn" id="app-about-close">
+					<i class="bx bxs-chevron-right"></i>
+				</div>
+				
+				<div class="app-authors">
+					<h2>About Us</h2>
+					
+					<div class="profilecards">
+						<img src="img/profile1.png">
+						<h4>Niloy Sikdar</h4>
+						<p>Computer Science Engg., JGEC</p>
+						<p><b>Developer</b></p>
+						<div class="profilelinks">
+							<a href="javascript:void(0);"><img src="img/email.png"></a>
+							<a href="javascript:void(0);"><img src="img/github.png"></a>
+							<a href="javascript:void(0);"><img src="img/linkedin.png"></a>
+						</div>
+					</div>
+
+					<div class="profilecards">
+						<img src="img/profile2.png">
+						<h4>Niladri Mondal</h4>
+						<p>Electrical Engg., JGEC</p>
+						<p><b>Designer</b></p>
+						<div class="profilelinks">
+							<a href="javascript:void(0);"><img src="img/email.png"></a>
+							<a href="javascript:void(0);"><img src="img/github.png"></a>
+							<a href="javascript:void(0);"><img src="img/linkedin.png"></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- App About Us End -->
+
+
+		<!-- App PopUps Start -->
+		<div class="modal fade" id="myModal1">
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content modal1">
+					<svg>
+						<circle cx="150" cy="70" r="60" />
+						<circle cx="150" cy="70" r="60" />
+					</svg>
+					<img src="img/download.png">
+					<h4>Downloading...</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content modal2">
+					<img src="img/preview.png">
+					<h4>Downloaded</h4>
+					<p>Check Your Files</p>
+					<button class="btn" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModal3">
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content modal3">
+					<img src="img/error.png">
+					<h4>Sorry!</h4>
+					<p>Download Failed ):</p>
+					<button class="btn" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+		<!-- App PopUps End -->
+
+
+		<!-- Home Contents Section Start -->
+		<section id="contents-body">
+
+			<!-- Banner Start -->
+			<div class="container container-banner row">
+				<div class="col-2 d-flex justify-content-center">
+					<img src="img/logo-light.svg">
+				</div>
+				<div class="col-10 d-flex justify-content-center flex-column">
+					<h2>PDF Chest</h2>
+					<p>Search for a topic and get PDFs for free anytime.</p>
+				</div>
+			</div>
+			<!-- Banner End -->
+
+
+			<!-- Search Bar Start -->
+			<div class="container container-search">
+				<div class="inputgroup">
+					<input type="text" class="form-control" placeholder="Search Here">
+					<i class="fa fa-search" id="app-search"></i>
+				</div>
+				<p>Eg: <span>Python</span>, <span>React</span></p>
+			</div>
+			<!-- Search Bar End -->
+
+
+			<!-- Downloads Start -->
+			<div class="container container-downloads">
+				<div class="downloads-nav">
+					<h3>My Downloads</h3>
+					<a href="javascript:void(0);" class="btn" id="app-mydwnlds">See All</a>
+				</div>
+
+				<div class="downloads-card">
+					<div class="card mr-3">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+
+					<div class="card ml-3">
+						<div class="card-body">
+							<h4>Recent File</h4>
+							<a href="javascript:void(0);" class="btn">View</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Downloads End -->
+			
+		</section>
+		<!-- Home Contents Section End -->
+
+
+		<!-- Bottom/Footer Navbar Start -->
+		<footer>
+			<nav class="navbar-footer fixed-bottom">
+				<a href="javascript:void(0);" class="navbar-btn btn" id="app-info">
+					<i class="bx bxs-info-circle"></i>
+				</a>
+				<a href="javascript:void(0);" class="navbar-btn btn" id="app-home">
+					<i class="bx bxs-home"></i>
+				</a>
+				<a href="javascript:void(0);" class="navbar-btn btn" id="app-share">
+					<i class="bx bx-share-alt"></i>
+				</a>
+			</nav>
+		</footer>
+		<!-- Bottom/Footer Navbar End -->
+		
+	</main>
+
+</body>
+</html>

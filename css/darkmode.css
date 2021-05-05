@@ -1,0 +1,352 @@
+/* Dark Mode/Theme Styles */
+/* Created: Niladri Mondal */
+
+/* ========================================================================================= */
+
+body.dark {
+	background: #1b1b2f;
+}
+
+/* ========================================================================================= */
+
+body.dark #preloader {
+	background: #1b1b2f;
+}
+
+body.dark .loader h2 {
+	color: #f1f6f9;
+}
+
+/* ========================================================================================= */
+
+body.dark div.modal-content {
+	background: #1f1f37;
+}
+
+body.dark div.modal1 svg circle:nth-child(1) {
+	stroke: #312c51;
+}
+
+body.dark div.modal1 svg circle:nth-child(2) {
+	stroke: #7BBFFF;
+}
+
+body.dark div.modal1 h4 {
+	color: #f1f6f9;
+}
+
+body.dark div.modal2 h4,
+body.dark div.modal3 h4 {
+	color: #f1f6f9;
+}
+
+body.dark div.modal2 p,
+body.dark div.modal3 p {
+	color: #9ba4b4;
+}
+
+body.dark div.modal2 button,
+body.dark div.modal3 button {
+	color: #fff;
+	background: #0085ff;
+}
+
+/* ========================================================================================= */
+
+body.dark header nav.navbar {
+	background: #1F1F35;
+}
+
+body.dark header nav.navbar .navbar-brand i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark header nav.navbar .theme-modes i.dark {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+/* ========================================================================================= */
+
+body.dark footer nav.navbar-footer {
+	background: #1f1f37;
+}
+
+body.dark footer nav.navbar-footer .navbar-btn i {
+	color: #9ba4b4;
+}
+
+body.dark footer nav.navbar-footer .navbar-btn i:hover {
+	color: #f1f6f9;
+}
+
+body.dark footer nav.navbar-footer .navbar-btn:nth-child(2):before {
+	background: #0085ff;
+}
+
+body.dark footer nav.navbar-footer .navbar-btn:nth-child(2) i {
+	color: #fff;
+}
+
+/* ========================================================================================= */
+
+
+/* ========================================================================================= */
+
+body.dark .container-banner {
+	background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+}
+
+body.dark .container-banner h2 {
+	color: #f1f6f9;
+}
+
+body.dark .container-banner p {
+	color: #f1f6f9;
+}
+
+/* ========================================================================================= */
+
+body.dark .container-search .inputgroup i {
+	color: #fafafa;
+}
+
+body.dark .container-search .inputgroup input {
+	color: #f4f9f9;
+	background: #2B274A;
+	box-shadow: 0 4px 8px #13132D;
+	caret-color: #fafafa;
+}
+
+body.dark .container-search .inputgroup input::placeholder {
+	color: #A5B2C8;
+}
+
+body.dark .container-search p {
+	color: #f9fcfb;
+}
+
+/* ========================================================================================= */
+
+body.dark .container-downloads .downloads-nav h3 {
+	color: #fafafa;
+}
+
+body.dark .container-downloads .downloads-nav a {
+	color: #7BBFFF;
+}
+
+body.dark .container-downloads .downloads-card .card {
+	box-shadow: inset 4px 4px 4px #161627,
+				inset -4px -4px 4px #282847,
+				4px 4px 4px #161627,
+				-4px -4px 4px #282847;
+}
+
+body.dark .container-downloads .downloads-card .card .card-body {
+	box-shadow: 0 10px 20px #101026;
+}
+
+body.dark .container-downloads .downloads-card .card .card-body h4 {
+	color: #f9f9f9;
+}
+
+body.dark .container-downloads .downloads-card .card .card-body a {
+	color: #7BBFFF;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-drawer nav.app-drawer {
+	background: #1b1b2f;
+	box-shadow: 3px 0 13px #13132D;
+}
+
+body.dark section.container-drawer nav.app-drawer .drawer-btn i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark section.container-drawer nav.app-drawer ul li {
+	background: #29244B;
+}
+
+body.dark section.container-drawer nav.app-drawer ul li a i {
+	color: #fffafa;
+}
+
+body.dark section.container-drawer nav.app-drawer ul li a span {
+	color: #f1f6f9;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-info {
+	background: #1b1b2f;
+}
+
+body.dark section.container-info div.app-info .info-btn i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark section.container-info div.app-info .app-desc h2 {
+	color: #f1f6f9;
+}
+
+body.dark section.container-info div.app-info .app-desc p {
+	color: #f6f5f5;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-searchcards {
+	background: #1b1b2f;
+}
+
+body.dark section.container-searchcards div.app-searchcards .searchback-nav {
+	background: #1b1b2f;
+	box-shadow: 0 4px 4px #13132D;
+}
+
+body.dark section.container-searchcards div.app-searchcards .searchback-nav i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark section.container-searchcards div.app-searchcards .searchback-nav p {
+	color: #9ba4b4;
+}
+
+body.dark section.container-searchcards div.app-searchcards .search-cards .cards {
+	background: #1f1f37;
+	box-shadow: 0 8px 16px #13132D;
+}
+
+body.dark section.container-searchcards div.app-searchcards .search-cards .cards h2 {
+	color: #f1f6f9;
+}
+
+body.dark section.container-searchcards div.app-searchcards .search-cards .cards span {
+	background: #262145;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-searchfails {
+	background: #1b1b2f;
+}
+
+body.dark section.container-searchfails div.app-searchfails .searchback-nav {
+	background: #1b1b2f;
+	box-shadow: 0 4px 4px #13132D;
+}
+
+body.dark section.container-searchfails div.app-searchfails .searchback-nav i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark section.container-searchfails div.app-searchfails .searchback-nav p {
+	color: #9ba4b4;
+}
+
+body.dark section.container-searchfails div.app-searchfails .search-fails p {
+	color: #9ba4b4;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-mydwnlds {
+	background: #1b1b2f;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-nav {
+	background: #1b1b2f;
+	box-shadow: 0 4px 4px #13132D;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-nav h3 {
+	color: #fafafa;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-nav a {
+	color: #7BBFFF;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-card .card {
+	box-shadow: inset 4px 4px 4px #161627,
+				inset -4px -4px 4px #282847,
+				4px 4px 4px #161627,
+				-4px -4px 4px #282847;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-card .card .card-body {
+	box-shadow: 0 10px 20px #101026;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-card .card .card-body h4 {
+	color: #f9f9f9;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-card .card .card-body a {
+	color: #7BBFFF;
+}
+
+body.dark section.container-mydwnlds div.app-mydwnlds .mydwnlds-empty p {
+	color: #9ba4b4;
+}
+
+/* ========================================================================================= */
+
+body.dark section.container-about {
+	background: #1b1b2f;
+}
+
+body.dark section.container-about div.app-about .about-btn i {
+	color: #FAFAFA;
+	background: #272343;
+	box-shadow: 0 0 4px #13132D;
+}
+
+body.dark section.container-about div.app-about .app-authors h2 {
+	color: #f1f6f9;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards {
+	background: transparent;
+	box-shadow: 0 8px 12px #0F0F29;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards img {
+	background: #312c51;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards h4 {
+	color: #f1f6f9;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards p {
+	color: #9ba4b4;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards .profilelinks a {
+	box-shadow: inset 2px 2px 2px #161627,
+				inset -2px -2px 2px #282847,
+				2px 2px 2px #161627,
+				-2px -2px 2px #282847;
+}
+
+body.dark section.container-about div.app-about .app-authors .profilecards .profilelinks a img {
+	background: transparent;
+	filter: invert(1);
+}
+
+/* ========================================================================================= */
