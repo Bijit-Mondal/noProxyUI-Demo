@@ -16,10 +16,10 @@
 
 ### Key Features of UI:
 
-1. Best view in Mobile View.
-2. Its also have Dark Mode/Theme.
-3. Awesome Modern Look & Animations.
-4. Fully responsive & can also view as well as in Desktop View.
+1. Best view in **_Mobile View_**.
+2. Its also have **_Dark Mode/Theme_**.
+3. Awesome **_Modern Look & Animations_**.
+4. Fully **_Responsive_** & can also view as well as in **_Desktop View_**.
 
 <p>
     PDF Chest is a awesome app just for downloading any free pdfs across the internet any time anywhere.
