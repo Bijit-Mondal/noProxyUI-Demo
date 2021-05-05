@@ -6,31 +6,40 @@
 
 ## [PDFChestUI](https://pdfchest.netlify.app/)
 
-<hr/>
-
 ### Description:
 
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v4/icons/stackbit.svg" />
+<p>
+    This is a UI of PDF Chest App in Play Store made by Niloy Sikdar.<br/>
+    <b>I have just re-design it with some best UI looks just for inspiration.</b><br/>
+    Best Preview will be in Mobile View (as it is made for mobile app).
+</p>
+
+### Key Features of UI:
+
+1. Best view in Mobile View.
+2. Its also have Dark Mode/Theme.
+3. Awesome Modern Look & Animations.
+4. Fully responsive & can also view as well as in Desktop View.
+
+<p>
+    PDF Chest is a awesome app just for downloading any free pdfs across the internet any time anywhere.
+    <br/><b>Hope we will see some good updates in the App UI in future for best previews & looks.</b>
+</p>
 
 <hr/>
 
 ### Creator:
 
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v4/icons/codio.svg" />
-
 -   **[Niloy Sikdar](https://github.com/niloysikdar) : [Play Store Repo](https://github.com/niloysikdar/PdfChest)**
-
 -   **[Niladri Mondal](https://github.com/imniladri) : [Web UI Repo](https://github.com/imniladri/PDFChestUI)**
 
 <hr/>
 
 ### Version:
 
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v4/icons/v.svg" />
-
 -   **[Play Store Version](https://play.google.com/store/apps/details?id=com.pdfchest.android)**
 -   **[Web UI Version](https://imniladri.github.io/PDFChestUI/)**
 
 <br/>
 
-**_Thanks_**
+**_--Thank You--_**
