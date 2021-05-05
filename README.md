@@ -2,7 +2,7 @@
 
 **_This is a Simple App UI for PDF Chest App in Play Store._**
 
-<img align="left" width="60" alt="PDF Chest UI" src="./img/logo-light.png" />
+<img align="left" width="56" alt="PDF Chest UI" src="./img/logo-light.svg" />
 
 ## [PDFChestUI](https://pdfchest.netlify.app/)
 
