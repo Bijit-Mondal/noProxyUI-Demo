@@ -5,13 +5,13 @@ svg#RKLogo {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-  animation: fill 0.5s linear forwards 2.5s;
+  animation: fill 0.5s linear forwards 3s;
 }
 
 svg#RKLogo g path {
   stroke-dasharray: 25200;
   stroke-dashoffset: 25200;
-  animation: line 8s cubic-bezier(0.03, 0.03, 0.07, 0.89) forwards;
+  animation: line 6s cubic-bezier(0.03, 0.03, 0.04, 0.08) forwards;
 }
 
 @keyframes line {
