@@ -1,0 +1,32 @@
+svg#RKLogo {
+  fill: none;
+  stroke: url(#grad);
+  stroke-width: 10px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  animation: fill 0.5s linear forwards 2.5s;
+}
+
+svg#RKLogo g path {
+  stroke-dasharray: 25200;
+  stroke-dashoffset: 25200;
+  animation: line 8s cubic-bezier(0.03, 0.03, 0.07, 0.89) forwards;
+}
+
+@keyframes line {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  0% {
+    fill: transparent;
+    stroke: url(#grad);
+  }
+  100% {
+    fill: url(#grad);
+    stroke: transparent;
+  }
+}
